@@ -1,0 +1,23 @@
+            TODAY TOPICS
+    
+    1.Intro and installation
+    2.First python program
+    3.Data types
+  
+
+# intro
+Python is a popular programming language. 
+ It was created by Guido van Rossum, and released in 1991.
+ It’s widely used in web development, data analysis, artificial intelligence, scientific computing etc.
+
+
+# Data types
+  Text     :  str
+  Numeric  :  int , float ,complex
+  Sequence :  list ,tupple ,range
+  Mapping  :  dict
+  Boolean  :  bool
+  Binary   :  bytes, bytearray, memoryview
+
+You can get the data type of any object by using the type() function:/method
+to print we can use print()  function: /method
