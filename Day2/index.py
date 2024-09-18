@@ -8,7 +8,7 @@ print(a//b)
 
 print("\n")  # new line
 print("\t") #one tab space 4 space
-print("\b")  #white space
+print("\b")  #Backspace
 print("\'")   #single quote
 print("\\")    #backslash
 print("\033[92m {}\033[00m" .format("hello"))  #a string template where we can insert var value and print color
