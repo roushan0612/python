@@ -2,6 +2,7 @@
          1.remaining data types syntax
          2.arithmatic operator
          3.comparison operator
+         4.escape characters
 
  # remaining data types
  ["apple", "banana", "cherry"]	---------list
@@ -33,3 +34,10 @@
       greater than   >
        less than equalto    <=
       greater than equalto  >=
+#escape characters
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace
