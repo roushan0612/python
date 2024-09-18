@@ -1,0 +1,35 @@
+         TODAY TOPICS
+         1.remaining data types syntax
+         2.arithmatic operator
+         3.comparison operator
+
+ # remaining data types
+ ["apple", "banana", "cherry"]	---------list
+ ("apple", "banana", "cherry")	---------tuple
+ range(4)                       --------	range
+ {"name" : "John", "age" : 36}	--------dict
+ {"apple", "banana", "cherry"}	--------set
+ frozenset({"apple", "banana", "cherry"})	---frozenset
+  b"Hello"	---------------------------------bytes
+  bytearray(5)	-------------------------bytearray
+  memoryview(bytes(5))	------------------memoryview
+  None	------------------------------------NoneType	
+
+
+# operator 
+     #arithmatic
+        addition +
+        subtraction -
+        mul *
+        div /
+        power **
+        floor division         --will explain more in next class
+        Modulus %              --will explain more in next class
+
+    #comparison 
+       equality ==
+       not equal  !=
+      less than      <
+      greater than   >
+       less than equalto    <=
+      greater than equalto  >=
