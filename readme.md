@@ -18,11 +18,11 @@ you can find codes and notes of every class in respective folder.
 4. escape characters
 
 
-##     Day3 -----> 20 sep 2024. 
- 1.array constant
- 2.printing in color using escape char of color
- 3.string formating
- 4.if elif else  conditional statement syntax
- 5.syntax of function 
- 6.question ----  finding complete division ,floor division,remainder and printing in particular format
+##     Day3 -----> 20 sep 2024.
+ 1. array constant
+ 2. printing in color using escape char of color
+ 3. string formating
+ 4. if elif else  conditional statement syntax
+ 5. syntax of function 
+ 6. question ----  finding complete division ,floor division,remainder and printing in particular format
      
