@@ -25,4 +25,20 @@ you can find codes and notes of every class in respective folder.
  4. if elif else  conditional statement syntax
  5. syntax of function 
  6. question ----  finding complete division ,floor division,remainder and printing in particular format
-     
+
+
+##     Day4 -----> 23 sep 2024.
+ 1. work on list tuple set dict
+ 2. loop
+ 3. function
+ 4. question
+ 5. factorial 5! = 5 x 4 x 3 x 2 x 1 = 120
+ 6. even and odd
+ 7. palindrome
+ 8. file handling
+
+##     Day5 -----> 24 sep 2024.
+   1. class continue
+   2. error handling
+   3. question 
+   4. summary
