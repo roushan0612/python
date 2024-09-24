@@ -41,10 +41,10 @@ eglist = ['first', 'second', 'third']
 # for index, color in enumerate(colors):
 #     print(f"Index {index}: {color}")
 # #EXAMPLE WHILE LOOP
-num = 0
-while num < 5:
-    print(num)
-    num += 1
+# num = 0
+# while num < 5:
+#     print(num)
+#     num += 1
 
 # loop control statement
 '''break,continue,pass 
@@ -70,16 +70,15 @@ def myfunc(name="hello"):
  Lambda Functions
  square = lambda x: x ** 2
 '''
-'''
 
 
 def mult(a, b):
     """Return the product of a and b."""
     return a * b
 
-help(print)
-'''
+
 square = lambda x: x ** 2
+print(square(6))
     
 # file handling
 #  built-in open() function to open a file.
@@ -104,6 +103,8 @@ with open('day4.txt', 'w') as file:
 
 
 # question fibonaci  
+"there are many way of doing same task here three solution of checking fibonaci seq"
+# 1
 def is_fibo(sequence):
     # Handle edge cases
     if len(sequence) < 3:
@@ -117,7 +118,7 @@ def is_fibo(sequence):
     return True
 
 
-# recuring
+# recuring   2
 def is_fibo_recur(sequence, index=2):
     # Base case: if the index reaches the length of the sequence, it's valid
     if index == len(sequence):
@@ -138,22 +139,33 @@ def check_fibo(sequence):
     return is_fibo_recur(sequence)
 
 
-# by slicing one index
-# def fibos(sequence):
-#      if len(sequence) < 3:
-#         return False
-#      else: return rfibo(sequence)
+# by slicing one index  3
+def fibos(sequence):
+     if len(sequence) < 3:
+        return False    #no fibo seq is less than 3 in length
+     else: return rfibo(sequence)
 
 
-# def rfibo(sequence):
-#     if len(sequence) < 3:
-#         return True
+def rfibo(sequence):
+    if len(sequence) < 3:
+        return True
     
-#     if sequence[2] != sequence[index - 1] + sequence[index - 2]:
-#         return False
+    if sequence[2] != sequence[1] + sequence[0]:
+        return False
     
-#     return rfibo(sequence[1:])
+    return rfibo(sequence[1:]) #slicing one index from start
 
 
-seq1 = [0, 1, 1, 2, 3, 5, 8]
+seq1 = [0, 1,1]
 seq2 = [1, 1, 2, 3, 4, 5, 9]
+
+# now we can test all 
+print(is_fibo(seq1))
+print(check_fibo(seq1))
+print(fibos(seq1))
+
+print(is_fibo(seq2))
+print(check_fibo(seq2))
+print(fibos(seq2))
+
+# check by changing value of seq1,seq2
